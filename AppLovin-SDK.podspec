@@ -8,35 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppLovin-SDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AppLovin-SDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '3.4.3'
+  s.summary          = 'AppLovin-SDK.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AppLovin-SDK..
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AppLovin-SDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/SnowflakeTQ/AppLovin-SDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gaoyang' => 'gaoyang@joycastle.mobi' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AppLovin-SDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/SnowflakeTQ/AppLovin-SDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AppLovin-SDK/Classes/**/*'
+  s.ios.deployment_target = '7.0'
   
-  # s.resource_bundles = {
-  #   'AppLovin-SDK' => ['AppLovin-SDK/Assets/*.png']
-  # }
+  s.frameworks = 'AdSupport', 'AVFoundation', 'CoreTelephony', 'CoreGraphics', 'CoreMedia', 'StoreKit', 'SystemConfiguration', 'UIKit'
+  s.vendored_libraries = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.4.3/libAppLovinSdk.a'
+  s.source_files = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.4.3/headers/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,6 @@
+framework module AppLovin_SDK {
+  umbrella header "AppLovin-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
