@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AppLovin-SDK_Tests' do
+  pod 'AppLovin-SDK', :path => '../'
+  
+  
+end
