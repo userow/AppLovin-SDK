@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppLovin-SDK'
-  s.version          = '3.4.3'
+  s.version          = '3.5.0'
   s.summary          = 'AppLovin-SDK.'
 
   s.description      = <<-DESC
@@ -23,7 +23,6 @@ AppLovin-SDK..
   s.ios.deployment_target = '7.0'
   
   s.frameworks = 'AdSupport', 'AVFoundation', 'CoreTelephony', 'CoreGraphics', 'CoreMedia', 'StoreKit', 'SystemConfiguration', 'UIKit'
-  s.vendored_libraries = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.4.3/libAppLovinSdk.a'
-  s.source_files = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.4.3/headers/*.h'
+  s.vendored_frameworks = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.5.0-23/AppLovinSDK.framework'
 
 end

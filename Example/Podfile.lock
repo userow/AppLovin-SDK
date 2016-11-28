@@ -1,16 +1,16 @@
 PODS:
-  - AppLovin-SDK (0.1.0)
+  - AppLovin-SDK (3.5.0)
 
 DEPENDENCIES:
   - AppLovin-SDK (from `../`)
 
 EXTERNAL SOURCES:
   AppLovin-SDK:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  AppLovin-SDK: 11b1b5a1de6fbffcd9fbaac9e76ef3c4d0e2b5af
+  AppLovin-SDK: 38c91dad7b6110a28eeb8ac561c7103d93321ea4
 
 PODFILE CHECKSUM: 9ac44498f1c9eba9381da8945a29200e1cdc023f
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.1
