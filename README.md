@@ -1,9 +1,9 @@
 # AppLovin-SDK
 
 [![CI Status](http://img.shields.io/travis/gaoyang/AppLovin-SDK.svg?style=flat)](https://travis-ci.org/gaoyang/AppLovin-SDK)
-[![Version](https://img.shields.io/cocoapods/v/AppLovin-SDK.svg?style=flat)](http://cocoapods.org/pods/AppLovin-SDK)
-[![License](https://img.shields.io/cocoapods/l/AppLovin-SDK.svg?style=flat)](http://cocoapods.org/pods/AppLovin-SDK)
-[![Platform](https://img.shields.io/cocoapods/p/AppLovin-SDK.svg?style=flat)](http://cocoapods.org/pods/AppLovin-SDK)
+[![Version](https://img.shields.io/cocoapods/v/AppLovin-SDK.svg?style=flat)](http://github.com/userow/AppLovin-SDK)
+[![License](https://img.shields.io/cocoapods/l/AppLovin-SDK.svg?style=flat)](http://github.com/userow/AppLovin-SDK)
+[![Platform](https://img.shields.io/cocoapods/p/AppLovin-SDK.svg?style=flat)](http://github.com/userow/AppLovin-SDK)
 
 ## Example
 
