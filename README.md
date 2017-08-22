@@ -17,12 +17,13 @@ AppLovin-SDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "AppLovin-SDK"
+pod 'AppLovin-SDK', :git=> 'https://github.com/userow/AppLovin-SDK.git', :tag=> '4.3.0'
 ```
 
 ## Author
 
-gaoyang, gaoyang@joycastle.mobi
+gaoyang, gaoyang@joycastle.mobi (3.5.0)
+userow, userow@gmail.com (4.3.0)
 
 ## License
 

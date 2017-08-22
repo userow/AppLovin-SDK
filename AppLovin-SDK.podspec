@@ -8,21 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppLovin-SDK'
-  s.version          = '3.5.0'
+  s.version          = '4.3.0'
   s.summary          = 'AppLovin-SDK.'
 
   s.description      = <<-DESC
-AppLovin-SDK..
+AppLovin-SDK 4.3.0 ..
                        DESC
 
-  s.homepage         = 'https://github.com/SnowflakeTQ/AppLovin-SDK'
+  s.homepage         = 'https://github.com/userow/AppLovin-SDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gaoyang' => 'gaoyang@joycastle.mobi' }
-  s.source           = { :git => 'https://github.com/SnowflakeTQ/AppLovin-SDK.git', :tag => s.version.to_s }
+  s.author           = { 'gaoyang' => 'gaoyang@joycastle.mobi', 'userow' => 'userow@gmail.com' }
+  s.source           = { :git => 'https://github.com/userow/AppLovin-SDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
   
-  s.frameworks = 'AdSupport', 'AVFoundation', 'CoreTelephony', 'CoreGraphics', 'CoreMedia', 'StoreKit', 'SystemConfiguration', 'UIKit'
-  s.vendored_frameworks = 'AppLovin-SDK/SDK/applovin-ios-sdk-3.5.0-23/AppLovinSDK.framework'
+  s.frameworks = 'AdSupport', 'AVFoundation', 'CoreTelephony', 'CoreGraphics', 'CoreMedia', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
+  s.vendored_frameworks = 'AppLovin-SDK/SDK/applovin-ios-sdk-4.3.0/AppLovinSDK.framework'
 
 end
